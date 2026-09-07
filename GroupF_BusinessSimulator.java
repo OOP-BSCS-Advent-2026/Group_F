@@ -12,7 +12,7 @@ import java.util.Locale;//imports locale so numbers can be formatted consistentl
  */
 public class GroupF_BusinessSimulator {//main class for the Chic Botique business simulator
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//stores and names their corresponding prices.
 
         // 1. Item names and prices stored in parallel arrays (same order)
         String[] names  = {"Shirt", "Trousers", "Shoes (pair)", "Dress"};
