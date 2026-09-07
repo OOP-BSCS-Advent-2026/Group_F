@@ -38,7 +38,9 @@ public class GroupF_BusinessSimulator {//main class for the Chic Botique busines
         System.out.println("==== CHIC BOUTIQUE ====");// header 
         for (int i = 0; i < names.length; i++) {
             System.out.printf(Locale.US, "%d. %-14sUGX %,.2f%n",// ensures to format the decmal with dots %-14s is for left alingment 
-                    (i + 1), names[i], prices[i]);
+                    (i + 1),
+                    names[i], 
+                    prices[i]);
         }
         System.out.println();//Prints output
     }
@@ -53,7 +55,7 @@ public class GroupF_BusinessSimulator {//main class for the Chic Botique busines
      * exactly one place: here.
      */
     public static double calculateDiscountedSubtotal(String itemName, double price, int qty) {
-        double subtotal = price * qty;
+        double subtotal = price * qty;//calculates  subtotal before discount
 
         if (itemName.equalsIgnoreCase("Shirt")) {
             if (qty >= 4) {
