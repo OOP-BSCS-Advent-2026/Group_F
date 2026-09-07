@@ -1,4 +1,4 @@
-import java.util.Locale;
+import java.util.Locale;//imports locale so numbers can be formatted consistently
 
 /*
  * Group F - Chic Boutique
@@ -10,7 +10,7 @@ import java.util.Locale;
  *   Shoes(pair)-> buy 2 or more -> flat UGX 10,000 off the shoes line total
  *   Dress      -> buy 3 or more -> 10% off the dress line total
  */
-public class GroupF_BusinessSimulator {
+public class GroupF_BusinessSimulator {//main class for the Chic Botique business simulator
 
     public static void main(String[] args) {
 
